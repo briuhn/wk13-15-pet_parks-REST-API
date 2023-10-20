@@ -24,6 +24,7 @@ public class Employee {
 	private String employeePhone;
 	private String employeeEmail;
 	
+	
 	@EqualsAndHashCode.Exclude
 	@ToString.Exclude
 	@ManyToOne(cascade = CascadeType.ALL)
