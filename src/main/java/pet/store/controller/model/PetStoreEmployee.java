@@ -21,6 +21,7 @@ public class PetStoreEmployee {
 		employeeFirstName = employee.getEmployeeFirstName();
 		employeeLastName= employee.getEmployeeLastName();
 		employeePhone = employee.getEmployeePhone();
+		employeeEmail = employee.getEmployeeEmail();
 	}
 }
 	
